@@ -30,6 +30,8 @@
     <li><a href="W01_01_introPHP.php">Intro PHP</a></li>
     <li><a href="W02_01_oddEvenNumber.php">Odd-Even-Number</a></li>
     <li><a href="W02_02_Grade.php">Calculate Grade</a></li>
+    <li><a href="W07_01_connectDB.php">Connect Database</a></li>
+    <li><a href="W07_02_fetchData.php">FetchData</a></li>
 </ul>
 
 </body>
