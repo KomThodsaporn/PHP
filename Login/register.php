@@ -63,7 +63,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 </head>
 
 <bod y>
-    <div class="container mt-5">
+    <div class="container d-flex justify-content-center align-items-center">
+    <div class="card shadow-lg p-4 w-100" style="max-width: 500px;">
         <h2 class="mb-4">สมัครสมาชิก</h2>
 
         <?php if (!empty($error)): // ถ ้ำมีข ้อผิดพลำด ให้แสดงข ้อควำม ?>
@@ -112,6 +113,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <a href="login.php" class="btn btn-link">เข้าสู่ระบบ</a>
 
         </form>
+    </div>
     </div>
     </form>
 
